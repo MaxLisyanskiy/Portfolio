@@ -1,13 +1,32 @@
 .portfolio
     display: flex
     flex-wrap: wrap
-    margin: 0 -0.1rem
+    margin-bottom: 4.2rem
     &__col
         flex-basis: 33.33333%
-        padding: 1.5rem
+        padding: 1rem;
+        overflow: hidden
+        border-radius: 1rem
+        box-shadow: 0 0 4px $grey
+        transition: .2s all
+        &:hover 
+            box-shadow: 0 0 25px $grey
     &__img
         display: block
         max-width: 100%
         height: auto
-        
+    &__content
+        padding: 1.5rem 1rem
+    &__category
+        font-size: 1.2rem
+        font-weight: 400
+        text-transform: uppercase
+        margin-bottom: 1.5rem 
+    &__title
+        display: flex
+        justify-content: space-between
+        font-size: 16px
+        font-weight: 700
+
+
             
