@@ -1,6 +1,7 @@
 .nav
     display: flex
     height: 100%
+    align-items: center
     &__link
         padding: 1rem 3rem
         color: $black
@@ -13,3 +14,9 @@
         transition: .2s all
         &:hover
             border-color: $black
+
+
+@media screen and (max-width: 768px)
+    .nav
+        display: none
+    
